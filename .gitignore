@@ -161,8 +161,11 @@ cython_debug/
 #  *.ipr
 #  *.iws
 
-# VS Code
-.vscode/
+# VS Code (allow settings and launch configs)
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # macOS
 .DS_Store
