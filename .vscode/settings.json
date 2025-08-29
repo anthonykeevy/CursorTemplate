@@ -1,5 +1,5 @@
 {
-    "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\tonyk\\OneDrive\\Projects\\CursorTemplate\\venv\\Scripts\\python.exe",
     "python.terminal.activateEnvironment": true,
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
@@ -20,5 +20,9 @@
         "**/.pytest_cache": true,
         "**/.mypy_cache": true
     },
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticMode": "workspace"
 }
