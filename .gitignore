@@ -188,3 +188,7 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# BMAD Method files (optional - uncomment if you want to exclude them from version control)
+# .bmad-core/
+# .cursor/rules/bmad/
